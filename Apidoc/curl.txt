@@ -1,0 +1,4 @@
+//curl for run api
+ 
+curl --location --request GET 'localhost:3000/products?sortBy=id&page=1&pageSize=2' \
+--header 'pageSize: 2'
